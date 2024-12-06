@@ -2364,6 +2364,7 @@ input, select, textarea {
 		}
 
 /* Image */
+	
 
 	.image {
 		border-radius: 8px;
@@ -2406,6 +2407,10 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+			.image.fit img:hover {
+				filter: brightness(0.8); /* Adjust the value (0.5) to control darkness level */
+			}
+
 
 		.image.main {
 			display: block;
