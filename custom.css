@@ -1,0 +1,12 @@
+@media screen and (max-width: 736px) {
+    body.is-preload * {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+    
+    body.is-preload *:before,
+    body.is-preload *:after {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+} 
